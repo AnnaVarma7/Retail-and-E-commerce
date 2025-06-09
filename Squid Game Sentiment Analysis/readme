@@ -1,0 +1,52 @@
+🦑 Squid Game Sentiment Analysis
+This project analyzes social media reactions to the Netflix series Squid Game by extracting sentiment from thousands of tweets. Using NLP and sentiment scoring, we determine how viewers truly feel about the show.
+
+🎯 Objective
+Clean and preprocess social media text data
+Visualize common keywords using a word cloud
+Perform sentiment analysis using VADER
+Classify public sentiment as positive, negative, or neutral
+
+🧰 Tools & Libraries
+Python
+Pandas, Numpy – Data manipulation
+NLTK – Natural Language Processing
+WordCloud – Visual representation of word frequency
+Matplotlib, Seaborn – Visualization
+VADER – Sentiment scoring for social media content
+
+📁 Dataset Overview
+Source: Public Twitter data
+Key columns:
+text: Tweets about Squid Game
+user_*: Metadata (used only for filtering, not modeling)
+date: Time of tweet
+
+🧹 Preprocessing
+Dropped non-essential and null-heavy columns (user_location, user_description)
+Cleaned text using:
+Lowercasing
+Removing URLs, punctuations, numbers
+Stopword removal
+Stemming (Snowball Stemmer)
+
+📊 Analysis & Visualization
+🔤 Word Cloud
+Created a word cloud to showcase the most frequently used words in Squid Game tweets.
+
+💬 Sentiment Classification
+Each tweet was scored across:
+Positive
+Negative
+Neutral
+
+📈 Sentiment Summary
+Sentiment	Total Score
+Positive	10,604.56
+Negative	5,171.33
+Neutral	64,233.12
+
+Most tweets were neutral, but positive sentiment outweighed the negative ones significantly.
+
+💡 Conclusion
+The sentiment toward Squid Game on social media is mostly positive or neutral, with relatively few negative opinions. This trend likely contributed to its viral success.
