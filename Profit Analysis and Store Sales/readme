@@ -1,0 +1,49 @@
+🛍️ Store Sales & Profit Analysis using Python
+This project analyzes a retail store's sales and profit data to uncover insights across time, categories, sub-categories, and customer segments. The goal is to support data-driven decisions for marketing, pricing, and inventory strategies.
+
+🎯 Objective
+To analyze the store’s sales and profit performance by:
+Understanding trends across months
+Identifying top-performing product categories
+Analyzing profitability by customer segments
+Deriving actionable business recommendations
+
+🧰 Tools & Libraries
+Python
+Pandas – Data manipulation
+Plotly – Interactive visualizations
+CSV – Raw dataset (Sample Superstore)
+
+📁 Dataset Summary
+File: Sample - Superstore.csv
+
+Key features:
+Order Date, Ship Date, Category, Sub-Category
+Sales, Profit, Segment, Quantity, Discount
+
+🔍 Key Analyses Performed
+📆 Time-Based Trends
+Created features: Order Month, Year, Day of Week
+Identified monthly sales and profit trends
+
+📊 Category-Level Insights
+Furniture, Technology, and Office Supplies compared by:
+Total sales
+Total profit
+Monthly seasonality
+
+🧠 Sub-Category Analysis
+Analyzed top sub-categories driving revenue (e.g., Chairs, Phones, Binders)
+Assessed profit contribution by sub-category to identify underperformers
+
+👥 Segment-Level Profitability
+Segments: Consumer, Corporate, Home Office
+Calculated and compared:
+Total sales vs. total profit
+Sales-to-profit ratio
+
+📈 Key Findings
+Consumers drive the highest profit overall, but Corporate has the most efficient sales-to-profit ratio (7.67).
+Furniture generates high sales but comparatively lower profit, hinting at potential margin issues.
+February and November show noticeable peaks in sales, useful for campaign planning.
+Some sub-categories like Tables and Bookcases generate high sales but poor profits.
