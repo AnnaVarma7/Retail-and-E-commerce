@@ -1,0 +1,70 @@
+📈 Customer Satisfaction Analysis
+A data-driven project to analyze, visualize, and interpret customer satisfaction metrics using survey responses, behavioral data, and demographic segmentation. This end-to-end analysis helps uncover key pain points, understand drivers of satisfaction, and guide actionable improvements for business growth.
+
+🔍 Overview
+This project focuses on understanding customer satisfaction in an e-commerce setting using a rich dataset of 500 customers. By evaluating product quality, delivery time, customer service, website experience, return behavior, and discount usage, we segment customers and uncover patterns that impact loyalty and retention.
+
+🛠️ Tools & Libraries
+Python
+Pandas & NumPy – Data preprocessing and transformation
+Matplotlib & Seaborn – Data visualization
+Scikit-learn – For potential extensions (clustering, prediction)
+
+📊 Key Analysis Highlights
+🔹 Descriptive Statistics
+Average Age: 44
+Average Purchase Amount: $1065
+Average Satisfaction Ratings: ~3 out of 5
+Return Rate: ~25%
+Discount Usage: Mean of $251
+
+📌 Visual Explorations (Can be find in the /images folder)
+Customer Behavior Distributions
+
+Visualized distributions of:
+Age
+Purchase behavior
+Satisfaction ratings
+Return rate and discounts
+
+Distributions help identify patterns and anomalies in customer experience metrics.
+
+👥 Segmentation Analysis
+1. By Age & Gender
+Customers aged 18–29 (Female) gave the highest ratings for delivery and service.
+Older males (60–69) tend to give the lowest satisfaction scores.
+Product quality and customer service ratings vary across demographics.
+
+2. By Loyalty Program
+Loyalty Member	Product Quality	Delivery Time	Service	Website Ease	Return Rate	Discount Usage
+Yes	2.95	3.09	3.16	3.06	0.25	$260
+No	2.92	2.91	2.99	3.11	0.25	$241
+
+🔸 Members show higher satisfaction, especially in service and delivery.
+
+📉 Net Promoter Score (NPS)
+Using Customer Service Rating as a proxy:
+100% Detractors
+NPS Score: -100
+
+📍 A critical red flag—immediate improvement needed in service quality and customer engagement.
+
+🔍 Root Cause Analysis
+Analyzed customers who rated 1 or 2 stars in key categories:
+High return rates are closely linked with low ratings.
+Even high spenders and frequent buyers expressed dissatisfaction.
+Age groups 30–40 and 50–60 are prominent among low-rating customers.
+
+✅ Key Takeaways
+Delivery & service quality are core issues behind low satisfaction.
+
+Loyalty program boosts satisfaction and discount engagement.
+
+NPS Score of -100 indicates urgent need for CX transformation.
+
+High-spending customers are not necessarily satisfied—suggesting gaps in experience.
+
+🔮 Future Work
+Apply clustering or segmentation models for targeted marketing.
+Develop predictive models to forecast churn or dissatisfaction.
+Build an interactive dashboard for real-time monitoring using Power BI or Streamlit.
