@@ -3,21 +3,22 @@
 This repository contains data-driven projects focused on customer behavior, sales trends, and marketing analytics within retail and e-commerce domains. These projects are built to extract insights that support revenue growth, customer satisfaction, and strategic decision-making.
 
 📦 Projects Included
-😠 Customer Satisfaction Analysis
+
+Customer Satisfaction Analysis
 Analyzes customer reviews and feedback to identify reasons behind low satisfaction
 
 Highlights actionable areas to improve services or product offerings
 
 Visualizes rating distributions and sentiment trends
 
-💸 Profit Analysis and Store Sales
+Profit Analysis and Store Sales
 Investigates store-level profitability using historical sales data
 
 Identifies high-performing regions and underperforming segments
 
 Tracks seasonal trends, discount impacts, and category-wise performance
 
-🎬 Squid Game Sentiment Analysis
+Squid Game Sentiment Analysis
 Examines product reviews and social media mentions related to Squid Game merchandise
 
 Uses sentiment analysis to assess brand perception and audience engagement
